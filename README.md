@@ -37,7 +37,7 @@ Organizers:
 
 # What
 
-## May 30 Day 1:
+## May 30 - COURSE - Day 1:
     - Session 1
         - Presentation: introduction (what is a pangenome, why we need it, pangenome graph, variation graph, GFAv1, taste of pangenome graph construction)
         - Practical activities: simple pangenome graphs construction
@@ -45,7 +45,7 @@ Organizers:
         - Presentation: PanGenome Graph Builder
         - Practical activities: on HLA and LPA pangenome graphs
 
-## May 31 Day 2:
+## May 31 - COURSE - Day 2:
     - Session 1
         - Presentation: Pangenome visualization visualiazion in 1D, 2D, graph sorting)
         - Practical activities: Human pangenome graphs
@@ -53,7 +53,7 @@ Organizers:
         - Presentation: ODGI (graph extraction and untangling)
         - Practical activities with ODGI
 
-## June 1 Day 3:
+## June 1 - COURSE - Day 3:
     - Session 1
         - Presentation: ???MISSING???
         - Practical activities: Saccharomyces cerevisiae
@@ -61,7 +61,7 @@ Organizers:
         - Presentation: ???MISSING???
         - Practical activities: Saccharomyces cerevisiae and simple read mapping (vg map/pack/call)
 
-## June 2 Day 4:
+## June 2 - CONFERENCE \& UNCONFERENCE - Day 4:
 #### mornig Talks 9:30 - 12:00 
         - 9:30 - 10:15 long talk 
         - 10:15 - 10:45 talk 
@@ -77,7 +77,7 @@ Organizers:
         - 5:15 - 5:30 drinks and closing 
 
 
-## June 3 Day 5:
+## June 3 - CONFERENCE \& CODE FESTIVAL - Day 5:
 #### mornig Talks 9:30 - 12:00 
         - 9:30 - 10:15 long talk 
         - 10:15 - 10:45 talk 
