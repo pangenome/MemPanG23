@@ -35,7 +35,7 @@ Organizers:
 - [HHH](https://github.com/HHH)
 
 
-# What
+# PROGRAM
 
 ## May 30 - COURSE - Day 1:
     - Session 1
