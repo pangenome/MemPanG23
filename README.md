@@ -92,14 +92,3 @@ Organizers:
         - 4:30 - 5:15 long talk 
         - 5:15 - 5:30 drinks and closing 
 
-#### tentative list of speakers     
-        Gene Myers (assembly sequence comparison kmers) [homepage](https://www.mpi-cbg.de/research/researchgroups/currentgroups/gene-myers/research-focus)
-        Peter Sudamant (structural variation) [homepage](https://ib.berkeley.edu/people/faculty/sudmantp)
-        Arang Rhie (vertebrate genome assembly) [homepage](https://genomeinformatics.github.io/people/rhie/)
-        Shilpa Garg (pangenome methods assembly / genotyping ) [homepage](https://scholar.google.com/citations?user=_Sn07lgAAAAJ)
-        Sanwen Huang (pangenome applications) [homepage](https://scholar.google.com.hk/citations?user=Xezg1IUAAAAJ&hl=en)
-        Zhigui Bao (pangenome appliucation ) [homepage](https://scholar.google.com/citations?user=jfexpLUAAAAJ)
-        Christina boucher (data srtucture ) [homepage](https://www.christinaboucher.com/)
-        Maria Nattestad (pangenome genotyping) [homepage](http://marianattestad.com/)
-        Nicole Soranzo (GWAS)
-        Adam Felsenfeld (overview of NIH funding opportunities) [homepage](https://www.genome.gov/staff/Adam-Felsenfeld-PhD)
