@@ -28,7 +28,7 @@ Instructors:
 Helpers:
 
 - [Flavia Villani](https://github.com/Flavia95), University of Tennessee Health Science Center, Memphis, TN, US
-- [Vincenza Colonna](https://github.com/ezcn), University of Tennessee Health Science Center, Memphis, TN, US
+- [??? ???](https://github.com/???), ???
 
 Invited speakers:
 
