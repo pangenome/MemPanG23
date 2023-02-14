@@ -1,5 +1,5 @@
 # MEMPanG23
-The computational pangenomics course in Memphis
+The computational pangenomics course in Memphis.
 
 ## What
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues. This course will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
@@ -17,13 +17,11 @@ Memphis, Tennessee<br/>
 United States
 
 ## When
-May 30th - Jun 3rd 2023
+May 30th - Jun 2st 2023
 
 ## Who
-Instructors for the COURSE:
+Instructors:
 
-Erik Garrison
-Affiliation: 
 - [Erik Garrison](https://github.com/ekg), University of Tennessee Health Science Center, Memphis, TN, US
 - [Andrea Guarracino](https://github.com/AndreaGuarracino), University of Tennessee Health Science Center, Memphis, TN, US
 
@@ -32,7 +30,7 @@ Helpers:
 - [Flavia Villani](https://github.com/Flavia95), University of Tennessee Health Science Center, Memphis, TN, US
 - [Vincenza Colonna](https://github.com/ezcn), University of Tennessee Health Science Center, Memphis, TN, US
 
-Invited speakers for the VIRTUAL CONFERENCE:
+Invited speakers:
 
 - [AAA](https://github.com/AAA)
 - [BBB](https://github.com/BBB)
