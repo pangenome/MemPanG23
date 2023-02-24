@@ -74,16 +74,16 @@ University of Tennessee Health Science Center, Memphis, TN, US
 
 #### Organizers
 
-- [Andrea Guarracino](https://andreaguarracino.github.io/), University of Tennessee Health Science Center, Memphis, TN, US
+- [Andrea Guarracino](https://andreaguarracino.github.io/), University of Tennessee Health Science Center, Memphis,TN,US
 - [Ben Busby](https://github.com/DCGenomics), Director, Solution Science at DNAnexus,Pittsburgh, Pennsylvania,US
-- [Erik Garrison](http://hypervolu.me/~erik/erik_garrison.html),University of Tennessee Health Science Center, Memphis, TN, US
-- [Flavia Villani](https://github.com/Flavia95),University of Tennessee Health Science Center, Memphis, TN, US
-- [Melanie Hayes](https://uthsc.edu/cbmi/big/big-faculty.php),University of Tennessee Health Science Center, Memphis, TN, US
-- [Pjotr Prins](https://thebird.nl/),University of Tennessee Health Science Center, Memphis, TN, US
-- [Robert Davis](https://www.uthsc.edu/faculty/profile/?netid=rdavis88),University of Tennessee Health Science Center, Memphis, TN, US
-- [Robert Williams](https://www.uthsc.edu/faculty/profile/?netid=rwilli10),University of Tennessee Health Science Center, Memphis, TN, US
-- [Tamara Brock](https://www.uthsc.edu/genetics/faculty-staff.php),University of Tennessee Health Science Center, Memphis, TN, US
-- [Vincenza Colonna](https://www.uthsc.edu/faculty/profile/?netid=vcolonna),University of Tennessee Health Science Center, Memphis, TN, US
+- [Erik Garrison](http://hypervolu.me/~erik/erik_garrison.html), University of Tennessee Health Science Center, Memphis,TN,US
+- [Flavia Villani](https://github.com/Flavia95), University of Tennessee Health Science Center, Memphis,TN,US
+- [Melanie Hayes](https://uthsc.edu/cbmi/big/big-faculty.php), University of Tennessee Health Science Center, Memphis,TN,US
+- [Pjotr Prins](https://thebird.nl/), University of Tennessee Health Science Center, Memphis,TN,US
+- [Robert Davis](https://www.uthsc.edu/faculty/profile/?netid=rdavis88), University of Tennessee Health Science Center, Memphis,TN,US
+- [Robert Williams](https://www.uthsc.edu/faculty/profile/?netid=rwilli10), University of Tennessee Health Science Center, Memphis,TN,US
+- [Tamara Brock](https://www.uthsc.edu/genetics/faculty-staff.php), University of Tennessee Health Science Center, Memphis,TN,US
+- [Vincenza Colonna](https://www.uthsc.edu/faculty/profile/?netid=vcolonna), University of Tennessee Health Science Center, Memphis,TN,US
 
 <img width="400" src="https://user-images.githubusercontent.com/52487106/221055695-6a13d238-da26-45b4-befc-b407cab61edc.png">
 
