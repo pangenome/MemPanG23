@@ -168,7 +168,6 @@ United States
   <img src="https://user-images.githubusercontent.com/52487106/221055804-6bc5c83a-278e-4df1-9741-ee08b1aa3a61.jpg"  width="33%" height="300">
   <img src="https://user-images.githubusercontent.com/52487106/221055855-a321a3eb-441f-48b9-8cf8-467cd9d00061.jpg"  width="33%" height="300">
     <img src="https://user-images.githubusercontent.com/52487106/221080881-50f36fe0-57e0-45cd-87cf-0ce5470302cf.jpg"  width="33%" height="300">
-
 </div>
 
 
