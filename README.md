@@ -1,6 +1,9 @@
 # MEMPanG23
 A computational pangenomics course and virtual conference in Memphis, TN
 
+<img width="1000" alt="tubemap" src="https://user-images.githubusercontent.com/52487106/221055325-0e3da612-b351-45fe-9be5-2fc9be44973a.png">
+
+
 ## Important Dates
 - Practical Course Registration Deadline: **1st April 2023**
 - Selected Participant will be notify by: **10th April 2023**
@@ -18,17 +21,77 @@ TBA
 ## People
 #### Practical Course Instructors
 
-- [Erik Garrison](https://github.com/ekg), University of Tennessee Health Science Center, Memphis, TN, US
-- [Andrea Guarracino](https://github.com/AndreaGuarracino), University of Tennessee Health Science Center, Memphis, TN, US
+<p>
+<img src="https://user-images.githubusercontent.com/52487106/221066921-2fba42ac-d0f6-4b4c-8827-04a0c914a22b.jpeg" align="left" width="150">
+<span style="display:inline-block;margin-left:10px;">
+<a href="https://github.com/ekg"> Erik Garrison </a><br>
+University of Tennessee Health Science Center, Memphis, TN, US
+</span>
+</p>
+<br clear="left"/>
 
-#### Practical Course Helpers:
+<br clear="left"/>
 
-- [Flavia Villani](https://github.com/Flavia95), University of Tennessee Health Science Center, Memphis, TN, US
-- [Christian Ficher](https://github.com/???), ???
+
+
+<p>
+<img src="https://user-images.githubusercontent.com/52487106/221055484-97da90b2-f12d-4118-9938-a67a1dc46388.jpeg" align="left" width="150">
+<span style="display:inline-block;margin-left:10px;">
+<a href="https://github.com/AndreaGuarracino"> Andrea Guarracino </a><br>
+University of Tennessee Health Science Center, Memphis, TN, US
+</span>
+</p>
+
+
+<br clear="left"/>
+
+#### Practical Course Helpers
+
+<p>
+<img src="https://user-images.githubusercontent.com/52487106/221067058-67bdef3d-22ce-4fb0-b18f-1ae225d08626.jpeg" align="left" width="150">
+<span style="display:inline-block;margin-left:10px;">
+<a href="https://github.com/Flavia95">Flavia Villani</a><br>
+University of Tennessee Health Science Center, Memphis, TN, US
+</span>
+</p>
+
+<br clear="left"/>
+<br clear="left"/>
+
+
+
+<p>
+<img src="https://user-images.githubusercontent.com/52487106/221055543-869f8d8f-5b85-4cd4-a255-b9608fab268a.jpeg" align="left" width="150">
+<span style="display:inline-block;margin-left:10px;">
+<a href="https://github.com/chfi"> Christian Fischer </a><br>
+University of Tennessee Health Science Center, Memphis, TN, US
+</span>
+</p>
+
+
+<br clear="left"/>
+
+
+#### Organizers
+
+- [Andrea Guarracino](https://andreaguarracino.github.io/), University of Tennessee Health Science Center, Memphis, TN, US
+- [Ben Busby](https://github.com/DCGenomics), Director, Solution Science at DNAnexus,Pittsburgh, Pennsylvania,US
+- [Erik Garrison](http://hypervolu.me/~erik/erik_garrison.html),University of Tennessee Health Science Center, Memphis, TN, US
+- [Flavia Villani](https://github.com/Flavia95),University of Tennessee Health Science Center, Memphis, TN, US
+- [Melanie Hayes](https://uthsc.edu/cbmi/big/big-faculty.php),University of Tennessee Health Science Center, Memphis, TN, US
+- [Pjotr Prins](https://thebird.nl/),University of Tennessee Health Science Center, Memphis, TN, US
+- [Robert Davis](https://www.uthsc.edu/faculty/profile/?netid=rdavis88),University of Tennessee Health Science Center, Memphis, TN, US
+- [Robert Williams](https://www.uthsc.edu/faculty/profile/?netid=rwilli10),University of Tennessee Health Science Center, Memphis, TN, US
+- [Tamara Brock](https://www.uthsc.edu/genetics/faculty-staff.php),University of Tennessee Health Science Center, Memphis, TN, US
+- [Vincenza Colonna](https://www.uthsc.edu/faculty/profile/?netid=vcolonna),University of Tennessee Health Science Center, Memphis, TN, US
+
+<img width="400" src="https://user-images.githubusercontent.com/52487106/221055695-6a13d238-da26-45b4-befc-b407cab61edc.png">
+
+- [UTSHC, Department of Genetics, Genomics and Informatics](https://www.uthsc.edu/graduate-health-sciences/ibs/research-tracks/ggi.php)
+- [College of Medicine, Department of Pediatrics](https://www.uthsc.edu/pediatrics/)
 
 #### Virtual Conference Invited speakers
 TBA
-
 
 
 ## Program
@@ -86,8 +149,8 @@ TBA
 
 ## Registration and Practical Information
 
-#### [Practical Course Registration form](link)
-#### [Virtual Conference Registration form](link)
+#### [Practical Course Registration form](https://forms.gle/oeku3F3crTDb5N8F6)
+#### [Virtual Conference Registration form](https://forms.gle/PRKcQsz5Aivj1qg19)
 
 ### For who
 This course is intended for biologists and bioinformatics interested in studying organisms with high genetic diversity or without a reference genome, as well as those involved in comparative genomics and the assembly of pangenomes for any species.
@@ -101,9 +164,20 @@ XXXXXXXX building<br/>
 Memphis, Tennessee<br/>
 United States
 
+<div style="display: flex;">
+  <img src="https://user-images.githubusercontent.com/52487106/221055804-6bc5c83a-278e-4df1-9741-ee08b1aa3a61.jpg"  width="33%" height="300">
+  <img src="https://user-images.githubusercontent.com/52487106/221055855-a321a3eb-441f-48b9-8cf8-467cd9d00061.jpg"  width="33%" height="300">
+    <img src="https://user-images.githubusercontent.com/52487106/221080881-50f36fe0-57e0-45cd-87cf-0ce5470302cf.jpg"  width="33%" height="300">
+
+</div>
+
+
+supplied by [memphistravel](https://www.memphistravel.com/)
+
+
 ### Cost
-- Student prices - $100, with financial support if needed
-- Industry prices - $300 
+- Student prices - $200, with financial support if needed
+- Industry prices - $400 
 
 
 ## Contact
