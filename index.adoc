@@ -30,7 +30,11 @@ The use of a single reference genome in bioinformatics can lead to reference bia
 
 == *About the Virtual Conference (Friday, June 2nd 2023)*
 
-TBA
+We will gather for a hybrid in-person and virtual conference on the last day of the week.
+This will bring together course participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
+The virtual meeting will be open to the public.
+Speakers will cover topics at the intersection of pangenome methods and biology, including a focus on basic methods, data structures, genome assembly, data visualization, and public collaborative pangenome projects.
+We expect to draw speakers from a diverse set of species contexts.
 
 == *People*
 
