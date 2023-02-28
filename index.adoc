@@ -9,14 +9,14 @@ A computational pangenomics course and virtual conference in Memphis, TN.
 TODO METTERE GRAFIOCAVALLO
 
 
-=== *Important Dates*
+== *Important Dates*
 
 - Practical Course Registration Deadline: *1st April 2023*
 - Selected Participant will be notified by: *10th April 2023*
 - Payment Deadline: *20th April 2023*
 - Virtual Conference Registration Deadline: *29th May 2023*
 
-=== *Course Venue*
+== *Course Venue*
 
 University of Tennessee Health Science Center
 XXXXXXXX building
@@ -27,7 +27,7 @@ United States
 
 == *About the Practical Course*
 
-==== *Tuesday, May 30th - Thursday, June 1st 2023*
+=== *Tuesday, May 30th - Thursday, June 1st 2023*
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues. This course will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
 
 Participants will learn about pangenome concepts and gain practical experience building and analyzing pangenome graphs. They will apply these methods to complex research questions that require understanding the relationships between multiple genomes or accounting for variability when analyzing new genomes. By the end of the course, participants will have a strong understanding of pangenome methods based on whole genome assemblies.
@@ -35,12 +35,13 @@ Participants will learn about pangenome concepts and gain practical experience b
 
 == *About the Virtual Conference*
 
-==== *Friday, June 2nd 2023*
+=== *Friday, June 2nd 2023*
 We will gather for a hybrid in-person and virtual conference on the last day of the week.
 This will bring together course participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
 Speakers will cover topics at the intersection of pangenome methods and biology, including a focus on basic methods, data structures, genome assembly, data visualization, and public collaborative pangenome projects.
 We expect to draw speakers from a diverse set of species contexts.
+
 == *People*
 
 === *Practical Course Instructors*
@@ -105,7 +106,11 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/chfi[GitHub]
 {empty} +
 
 
-== *Organizers*
+=== *Virtual Conference Invited speakers*
+
+TBA
+
+=== *Organizers*
 
 - link:https://andreaguarracino.github.io/[Andrea Guarracino], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://github.com/DCGenomics[Ben Busby], Director, Solution Science at DNAnexus, Pittsburgh, Pennsylvania, US
@@ -124,10 +129,6 @@ image:images/UTHSC.png[uthsc,300]
 
 - UTSHC, Department of Genetics, Genomics and Informatics
 - College of Medicine, Department of Pediatrics
-
-== *Virtual Conference Invited speakers*
-
-TBA
 
 == *Program*
 
@@ -175,7 +176,7 @@ TBA
             OPTIONAL: simple read mapping and variant calling (vg map/pack/call)
             NOTE: we could replace this part with a genotyping session (bwa-mem, gfa-inject,gfapack, cosine distance)
 
-== *Virtual Conference*
+=== *Virtual Conference*
 Friday, June 2
 
 - 09:30 - 10:00 talk 1
