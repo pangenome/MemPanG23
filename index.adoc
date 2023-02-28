@@ -29,7 +29,7 @@ United States +
 
 == *About the Practical Course*
 
-*Tuesday, May 30th - Thursday, June 1st 2023* +
+*Tuesday, May 30, 2023 - Thursday, June 1, 2023* +
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues. This course will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
 
 Participants will learn about pangenome concepts and gain practical experience building and analyzing pangenome graphs. They will apply these methods to complex research questions that require understanding the relationships between multiple genomes or accounting for variability when analyzing new genomes. By the end of the course, participants will have a strong understanding of pangenome methods based on whole genome assemblies.
@@ -37,7 +37,7 @@ Participants will learn about pangenome concepts and gain practical experience b
 
 == *About the Virtual Conference*
 
-*Friday, June 2nd 2023* +
+*Friday, June 2, 2023* +
 We will gather for a hybrid in-person and virtual conference on the last day of the week.
 This will bring together course participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
@@ -128,7 +128,7 @@ image:images/UTHSC.png[uthsc,300]
 == *Program*
 
 === *Practical Course*
-*Tuesday, May 30 - Day 1*
+*Tuesday, May 30, 2023 - Day 1*
 
 14:30 17:30 (16:00-16:30 coffee break)
     
@@ -137,7 +137,7 @@ image:images/UTHSC.png[uthsc,300]
     - Presentation: introduction (what is a pangenome, why we need it, pangenome graph, variation graph, GFAv1, taste of pangenome graph construction)
     - Practical activities: simple pangenome graphs construction
 
-*Wednesday, May 31 - Day 2*
+*Wednesday, May 31, 2023 - Day 2*
 
 09:30 12:30 (10:30-11:00 cofee break)
 
@@ -153,7 +153,7 @@ image:images/UTHSC.png[uthsc,300]
     - Presentation: Pangenome visualization (in 1D and 2D), graph sorting
     - Practical activities: Human pangenome graphs
 
-*Thursday, June 1 - Day 3*
+*Thursday, June 1, 2023 - Day 3*
 
 09:30 12:30 (10:30-11:00 cofee break)
 
@@ -171,7 +171,7 @@ image:images/UTHSC.png[uthsc,300]
 //        NOTE: we could replace this part with a genotyping session (bwa-mem, gfa-inject,gfapack, cosine distance)
 
 === *Virtual Conference*
-Friday, June 2
+Friday, June 2, 2023
 
 - 09:30 - 10:00 talk 1
 - 10:00 - 10:30 talk 2
@@ -226,7 +226,6 @@ https://www.memphistravel.com/sports-outdoors?gclid=Cj0KCQiAgOefBhDgARIsAMhqXA4G
 
 
 
-== *Contacts, Organizing Secretariat*
+== *Contact*
 
-- mailto:mhayes74@uthsc.edu[Melanie Hayes]
-- mailto:tbrock5@uthsc.edu[Tamara Brock]
+- mailto:genetics@uthsc.edu[genetics@uthsc.edu]
