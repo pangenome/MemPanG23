@@ -6,7 +6,7 @@
 
 A computational pangenomics course and virtual conference in Memphis, TN.
 
-TODO METTERE GRAFIOCAVALLO
+image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000-e5000-I0-R0-N.smooth.chop.og.lay.draw_mqc.png[400]
 
 
 === *Important Dates*
@@ -18,16 +18,18 @@ TODO METTERE GRAFIOCAVALLO
 
 === *Course Venue*
 
-University of Tennessee Health Science Center
-XXXXXXXX building
-Memphis, Tennessee
-United States
-- https://www.google.com/maps/place/The+University+of+Tennessee+Health+Science+Center/@35.1408087,-90.0328048,17z/data=!3m1!4b1!4m6!3m5!1s0x87d57e649fa0bfe5:0x2306e2eb0a1d3690!8m2!3d35.1408087!4d-90.0306161!16zL20vMDRtNGpo[map]
+University of Tennessee Health Science Center +
+Mooney Building, +
+Library, Room 201, +
+875 Monroe Ave., +
+Memphis, TN 38163 +
+United States +
+-> https://goo.gl/maps/fCZbYYeGyUko353B8[See the venue on the map]
 
 
 == *About the Practical Course*
 
-*Tuesday, May 30th - Thursday, June 1st 2023*
+*Tuesday, May 30th - Thursday, June 1st 2023* +
 The use of a single reference genome in bioinformatics can lead to reference bias and miss important information about genome variability and relationships. New assembly methods have made it easier to generate high-quality complete genome assemblies, and using a pangenome graph that expresses many genomes and their mutual alignment can help address these issues. This course will focus on building such graphs from whole genome assemblies and using them in various downstream applications in comparative genomics, evolution, variation analysis, sequence alignment, and phenotype association.
 
 Participants will learn about pangenome concepts and gain practical experience building and analyzing pangenome graphs. They will apply these methods to complex research questions that require understanding the relationships between multiple genomes or accounting for variability when analyzing new genomes. By the end of the course, participants will have a strong understanding of pangenome methods based on whole genome assemblies.
@@ -35,7 +37,7 @@ Participants will learn about pangenome concepts and gain practical experience b
 
 == *About the Virtual Conference*
 
-*Friday, June 2nd 2023*
+*Friday, June 2nd 2023* +
 We will gather for a hybrid in-person and virtual conference on the last day of the week.
 This will bring together course participants and virtual and in-person speakers who are actively working on diverse aspects of pangenome research.
 The virtual meeting will be open to the public.
@@ -46,13 +48,11 @@ We expect to draw speakers from a diverse set of species contexts.
 
 === *Practical Course Instructors*
 
-[DA ACCORCIARE A POCHE FRASI]
 ==== Erik Garrison - Assistant Professor
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. Harvard undergrad, Cambridge PhD. I build methods that let us understand the precise relationships between thousands of genomes. My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants, with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project. Lessons learned in that effort guided me to work on unbiased methods for genome inference based on graphical models of pangenomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information. I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome, and am currently applying it to the construction of pangenome graphs for humans as part of the HPRC.
-
+image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. . In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 '''
@@ -61,7 +61,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/andrea.jpeg[erik,200,role="right"]I am bioinformatician dedicated to the development and application of new methods to analyze collections of sequences (also called pangenomes). After a degree in computer engineering and an experience in a software company, he met biology by chance and fell in love with it. He then decided to pursue a master's degree in bioinformatics and then a PhD in the same field. During my doctorate, I explored chromosomal instability in colorectal cancer stem cells for the development of novel therapeutic approaches. In the middle of his research, "thanks" to the pandemic, I attended a virtual event where he encountered pangenomics and began actively working on developing new tools for building and analyzing pangenomes, which I am still currently doing.
+image:images/andrea.jpeg[erik,200,role="right"]I am bioinformatician dedicated to the development and application of new methods to analyze collections of sequences (also called pangenomes). "Thanks" to the pandemic, I attended a virtual event where he encountered pangenomics and began actively working on developing new tools for building and analyzing pangenomes, which I am still currently doing.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/andreaguarracino[GitHub]
 
@@ -73,12 +73,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/andreaguarracin
 
 image:images/simon.png[simon,200,role="right"]
 
-Simon Heumos - PhD Student
-Affiliation:
-
-Summary:
-Bioinformatician by training. My highlight during my undergraduate studies was implementing an interactive visualization of genome graphs. After I collected experience as a bioinformatics support and project manager at QBiC, my passion drew me back to pangenome graphs. As a doctoral student, I am exploring methods to calculate and visualize pangenome graph layouts. These are key steps in pangenome graph construction and analysis pipelines. Cluster-scalable pangenomics is the next step.
-Picture:
+Bioinformatician by training. I am exploring methods to calculate and visualize pangenome graph layouts. These are key steps in pangenome graph construction and analysis pipelines. Cluster-scalable pangenomics is the next step.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/subwaystation[GitHub]
 
