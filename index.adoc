@@ -52,7 +52,8 @@ We expect to draw speakers from a diverse set of species contexts.
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. . In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
+image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
+
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 '''
