@@ -130,46 +130,45 @@ image:images/UTHSC.png[uthsc,300]
 === *Practical Course*
 *Tuesday, May 30 - Day 1*
 
-    14:30 17:30 (16:00-16:30 coffee break)
+14:30 17:30 (16:00-16:30 coffee break)
     
-    Session 1
-        - Presentation: introduction (what is a pangenome, why we need it, pangenome graph, variation graph, GFAv1, taste of pangenome graph construction)
-        - Practical activities: simple pangenome graphs construction
+*Session 1*
+
+    - Presentation: introduction (what is a pangenome, why we need it, pangenome graph, variation graph, GFAv1, taste of pangenome graph construction)
+    - Practical activities: simple pangenome graphs construction
 
 *Wednesday, May 31 - Day 2*
 
-    09:30 12:30 (10:30-11:00 cofee break)
+09:30 12:30 (10:30-11:00 cofee break)
 
-    Session 2
-        - Presentation: PanGenome Graph Builder
-        - Practical activities: on HLA and LPA pangenome graphs
+*Session 2*
 
-    14:30 17:30 (16:00-16:30 coffee break)
+    - Presentation: PanGenome Graph Builder
+    - Practical activities: on HLA and LPA pangenome graphs
 
-    Session 3
-        - Presentation: Pangenome visualization (in 1D and 2D), graph sorting
-        - Practical activities: Human pangenome graphs
+14:30 17:30 (16:00-16:30 coffee break)
+
+*Session 3*
+
+    - Presentation: Pangenome visualization (in 1D and 2D), graph sorting
+    - Practical activities: Human pangenome graphs
 
 *Thursday, June 1 - Day 3*
 
-    09:30 12:30 (10:30-11:00 cofee break)
+09:30 12:30 (10:30-11:00 cofee break)
 
-    Session 4
-        - Presentation: ODGI (graph extraction and untangling)
-        - Practical activities with ODGI ()
+*Session 4*
 
-    14:30 17:30 (16:00-16:30 coffee break)
+    - Presentation: ODGI (graph extraction and untangling)
+    - Practical activities with ODGI
 
-    Session 5
-        - Presentation: MISSING
-        - Practical activities: Saccharomyces cerevisiae (with sequence divergence estimation)
+14:30 17:30 (16:00-16:30 coffee break)
 
-    Session 6
-        - Presentation: MISSING
-        - Practical activities:
-            Saccharomyces cerevisiae (with community detection)
-            OPTIONAL: simple read mapping and variant calling (vg map/pack/call)
-            NOTE: we could replace this part with a genotyping session (bwa-mem, gfa-inject,gfapack, cosine distance)
+*Session 5*
+
+    - Practical activities: Saccharomyces cerevisiae (with sequence divergence estimation and community detection)
+//        OPTIONAL: simple read mapping and variant calling (vg map/pack/call)
+//        NOTE: we could replace this part with a genotyping session (bwa-mem, gfa-inject,gfapack, cosine distance)
 
 === *Virtual Conference*
 Friday, June 2
