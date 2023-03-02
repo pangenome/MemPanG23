@@ -198,6 +198,8 @@ Registration includes access to: all lectures and practical sessions, all course
 
 === *Cost*
 
+The cost is intended for the course, not the conference.
+
 - Student - $200, with financial support if needed
 - Industry - $400
 
