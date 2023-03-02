@@ -63,7 +63,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/andrea.jpeg[erik,200,role="right"]I am bioinformatician dedicated to the development and application of new methods to analyze collections of sequences (also called pangenomes). "Thanks" to the pandemic, I attended a virtual event where he encountered pangenomics and began actively working on developing new tools for building and analyzing pangenomes, which I am still currently doing.
+image:images/andrea.jpeg[erik,200,role="right"]I am a bioinformatician dedicated to developing and applying new methods to analyze ever-larger collections of sequences (also called "pangenomes") in the tree of life.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/andreaguarracino[GitHub]
 
