@@ -7,6 +7,7 @@
 A computational pangenomics course and virtual conference in Memphis, TN.
 
 image::images/DRB1-3123.fa.gz.pggb-E-s5000-l15000-p80-n10-a0-K16-k8-w50000-j5000-e5000-I0-R0-N.smooth.chop.og.lay.draw_mqc.png[400]
+image::images/bridge.png[400]
 
 
 === *Important Dates*
