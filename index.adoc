@@ -53,7 +53,7 @@ We expect to draw speakers from a diverse set of species contexts.
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
+image:images/erik.jpeg[erik,200,role="right"] Genomicist with a quantitative social science background. I build methods that let us understand the precise relationships between thousands of genomes. In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of sequences.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
@@ -63,7 +63,7 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/ekg[GitHub]
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
 
-image:images/andrea.jpeg[erik,200,role="right"]I am a bioinformatician dedicated to developing and applying new methods to analyze ever-larger collections of sequences (also called "pangenomes") in the tree of life.
+image:images/andrea.jpeg[erik,200,role="right"]Computer (bio)scientist dedicated to developing and applying new methods to analyze ever-larger collections of sequences (also called "pangenomes") in the tree of life.
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/andreaguarracino[GitHub]
 
@@ -96,7 +96,8 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/Flavia95[GitHub
 ==== Christian Fischer - IT Analyst III
 
 .[purple]#University of Tennessee Health Science Center, Memphis, TN, US#
-image:images/christian.jpeg[christian,200,role="right"] I am part of Erik's group at UTHSC in Memphis, TN. I am a scientific software engineer with many interests and am aiming for a PhD on pangenomes and logic programming. I am a true lambda coder with a love for Haskell, Purescript, APL, Rust and Lisps. 
+image:images/christian.jpeg[christian,200,role="right"]Computer scientist also trained in interaction design, with a love for mathematics. I work on tooling for variation graphs using the Rust programming language, with a special interest in visualization, which is currently channeled into my pangenome visualization tool Waragraph.
+
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/chfi[GitHub]
 
