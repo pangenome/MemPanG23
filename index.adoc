@@ -27,6 +27,9 @@ Memphis, TN 38163 +
 United States +
 -> https://goo.gl/maps/fCZbYYeGyUko353B8[See the venue on the map]
 
+==== *Transportation in Memphis*
+
+If you stay in Downtown, the Medical District, South City, or New Chicago, you can reach the course venue by getting on-demand, convenient, and affordable rides with link:https://city.ridewithvia.com/groove-on-demand[Groove On-Demand].
 
 == *About the Practical Course*
 
@@ -199,11 +202,10 @@ Registration includes access to: all lectures and practical sessions, all course
 
 === *Cost*
 
-The cost is intended for the course. The conference is free.
+The cost is intended for the course. The conference is free. We do not expect meals to be included.
 
 - Academic - $200, with financial support if needed
 - Industry - $400
-
 
 === *Selection criteria*
 
