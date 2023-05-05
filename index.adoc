@@ -125,13 +125,16 @@ TBA
 === *Organizers*
 
 - link:https://andreaguarracino.github.io/[Andrea Guarracino], University of Tennessee Health Science Center, Memphis, TN, US
+- link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie], National Institutes of Health Genome Informatics Section, Washington, MD, US 
 - link:https://github.com/DCGenomics[Ben Busby], Director, Solution Science at DNAnexus, Pittsburgh, Pennsylvania, US
 - link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://github.com/Flavia95[Flavia Villani], University of Tennessee Health Science Center, Memphis, TN, US
+- link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga], University of California Genomics Institute, Santa Cruz, CA, US
 //- link:https://uthsc.edu/cbmi/big/big-faculty.php[Melanie Hayes], University of Tennessee Health Science Center, Memphis,TN,US
 - link:https://thebird.nl/[Pjotr Prins], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://www.uthsc.edu/faculty/profile/?netid=rdavis88[Robert Davis], University of Tennessee Health Science Center, Memphis, TN, US
 - link:https://www.uthsc.edu/faculty/profile/?netid=rwilli10[Robert Williams], University of Tennessee Health Science Center, Memphis, TN, US
+- link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos], University of Tuebingen Quantitative Biology Center, Tuebingen, DE
 //- link:https://www.uthsc.edu/genetics/faculty-staff.php[Tamara Brock], University of Tennessee Health Science Center, Memphis,TN,US
 - link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna], University of Tennessee Health Science Center, Memphis, TN, US
 
