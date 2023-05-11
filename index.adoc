@@ -140,7 +140,12 @@ image:images/Octicons-mark-github.svg[git,30] https://github.com/chfi[GitHub]
 
 === *Virtual Conference Invited speakers*
 
-TBA
+- link:https://scholar.google.com/citations?user=jfexpLUAAAAJ&hl=en[Zhigui Bao]: Hidden complex genome rearrangements in the plant pangenome graph
+- link:https://scholar.google.com/citations?hl=en&user=XzUOb7IAAAAJ[Arang Rhie]
+- link:https://scholar.google.com/citations?user=t0Sk55AAAAAJ&hl=en&oi=ao[Scott Edwards] Unexpected complexity and abundant structural variation in the pangenomes of birds
+- link:https://scholar.google.com/citations?hl=en&user=wpPBcf4AAAAJ&view_op=list_works&sortby=pubdate[Christina Boucher]
+- ???
+- link:https://scholar.google.com/citations?user=yp4X1F8AAAAJ&hl=en&oi=ao[Peter Sudmant] Recent human evolution of complex genome architectures
 
 === *Organizers*
 
