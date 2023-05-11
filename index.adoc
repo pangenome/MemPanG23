@@ -93,6 +93,26 @@ Bioinformatician by training. I am exploring methods to calculate and visualize 
 
 image:images/Octicons-mark-github.svg[git,30] https://github.com/subwaystation[GitHub]
 
+==== Arang Rhie - Staff Scientist
+
+.[purple]#Genome Informatics Section, Computational and Statistical Genomics Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, USA#
+
+image:images/arang.jpeg[arang,200,role="right"]
+
+I am an active member of the Vertebrate Genomes Project (VGP), Earth Biogenome Project (EBP), Human Pangenome Reference Consortium (HPRC) and the Telomere-to-Telomere consortium (T2T).
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/arangrhie[GitHub]
+
+==== Jordan Eizenga - Postdoctoral Researcher
+
+.[purple]#UC Santa Cruz Genomics Institute, University of California, Santa Cruz, Santa Cruz, CA, USA#
+
+image:images/jordan.webp[jordan,200,role="right"]
+
+My research focuses on a variety of topics in and around computational pangenomics. I am part of VG team.
+
+image:images/Octicons-mark-github.svg[git,30] https://github.com/jeizenga[GitHub]
+
 '''
 
 === *Practical Course Helpers*
