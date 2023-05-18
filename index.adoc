@@ -176,60 +176,56 @@ College of Medicine, Department of Pediatrics
 === *Practical Course*
 *Tuesday, May 30, 2023 - Day 1*
 
-14:30 17:30 (16:00-16:30 coffee break)
+14:30-17:30 (16:00-16:30 coffee break)
     
 *Session 1*
 
-    - Presentation: introduction (what is a pangenome, why we need it, pangenome graph, variation graph, GFAv1, taste of pangenome graph construction)
-    - Practical activities: simple pangenome graphs construction
+    - Presentation: Introduction to pangenomics
+    - Practical activities: HLA & LPA graphs, PanGenome Graph Builder
 
 *Wednesday, May 31, 2023 - Day 2*
 
-09:30 12:30 (10:30-11:00 cofee break)
+09:30-12:30 (10:30-11:00 cofee break)
 
 *Session 2*
 
-    - Presentation: PanGenome Graph Builder
-    - Practical activities: on HLA and LPA pangenome graphs
+    - Presentation: Understanding pangenomes
+    - Practical activities: community detection and ODGI applications
 
-14:30 17:30 (16:00-16:30 coffee break)
+14:30-17:30 (16:00-16:30 coffee break)
 
 *Session 3*
 
-    - Presentation: Pangenome visualization (in 1D and 2D), graph sorting
-    - Practical activities: Human pangenome graphs
+    - Presentation: nf-co.re/pangenome
+    - Practical activities: nf-co.re/pangenome application, pangenome openness
 
 *Thursday, June 1, 2023 - Day 3*
 
-09:30 12:30 (10:30-11:00 cofee break)
+09:30-12:30 (10:30-11:00 cofee break)
 
 *Session 4*
 
-    - Presentation: ODGI (graph extraction and untangling)
-    - Practical activities with ODGI
+    - Presentation: Read mapping with vg giraffe
+    - Practical activities: alignment & variant calling
 
-14:30 17:30 (16:00-16:30 coffee break)
+14:30-17:30 (16:00-16:30 coffee break)
 
 *Session 5*
 
-    - Practical activities: Saccharomyces cerevisiae (with sequence divergence estimation and community detection)
-//        OPTIONAL: simple read mapping and variant calling (vg map/pack/call)
-//        NOTE: we could replace this part with a genotyping session (bwa-mem, gfa-inject,gfapack, cosine distance)
+    - Presentation: State of the art in genome assembly
+    - Practical activities: T2T assembly problems
 
 === *Virtual Conference*
 Friday, June 2, 2023
 
-- 09:30 - 10:00 talk 1
-- 10:00 - 10:30 talk 2
-- 10:30 - 11:00 break
-- 11:00 - 11:30 talk 3
-- 11:30 - 12:00 talk 4
-- 12:00 - 14:00 lunch break
-- 14:00 - 14:30 talk 5
-- 14:30 - 15:00 talk 6
-- 15:00 - 15:30 break
-- 15:30 - 16:00 talk 7
-- 16:00 - 16:30 talk 8
+- 09:30 - 10:00 - Talk 1: Hidden complex genome rearrangements in the plant pangenome graph, Zhigui Bao
+- 10:00 - 10:30 - Talk 2
+- 10:30 - 11:00 - Break
+- 11:00 - 11:30 - Talk 3: Unexpected complexity and abundant structural variation in the pangenomes of birds, Scott Edwards
+- 11:30 - 12:00 - Talk 4
+- 12:00 - 14:00 - Lunch break
+- 14:00 - 14:30 - Talk 5
+- 14:30 - 15:00 - Talk 6: Recent human evolution of complex genome architectures, Peter Sudmant
 
 == *Registration and Practical Information*
 
