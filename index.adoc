@@ -177,10 +177,10 @@ College of Medicine, Department of Pediatrics
 ==== Tuesday, May 30, 2023 - Day 1
 
     - *Session 1 - speaker: link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison]*
-    - 14:30 - Presentation: Introduction to pangenomics
-    - 16:00 - Coffee break
-    - 16:30 - Practical activities: HLA & LPA graphs, PanGenome Graph Builder
-    - 17:30 - End of day 1
+    * 14:30 - Presentation: Introduction to pangenomics
+    * 16:00 - Coffee break
+    * 16:30 - Practical activities: HLA & LPA graphs, PanGenome Graph Builder
+    * 17:30 - End of day 1
 
 ==== Wednesday, May 31, 2023 - Day 2
 
@@ -214,6 +214,7 @@ College of Medicine, Department of Pediatrics
 
 *Friday, June 2, 2023*
 
+    - *Zoom link*: https://tennesseehipaa.zoom.us/j/92881122014
     - *Session 1 - chair: link:https://andreaguarracino.github.io/[Andrea Guarracino]*
     * 09:30 - 10:00 - Talk 1: Hidden complex genome rearrangements in the plant pangenome graph, link:https://scholar.google.com/citations?user=jfexpLUAAAAJ&hl=en[Zhigui Bao]
     * 10:00 - 10:30 - Talk 2: TBD, link:https://scholar.google.com/citations?hl=en&user=XzUOb7IAAAAJ[Arang Rhie]
