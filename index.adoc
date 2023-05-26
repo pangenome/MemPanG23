@@ -198,7 +198,7 @@ College of Medicine, Department of Pediatrics
 
 ==== Thursday, June 1, 2023 - Day 3
 
-    - *Session 4 - speaker: link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga],*
+    - *Session 4 - speaker: link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga]*
     * 09:00 - Presentation: Read mapping with vg giraffe
     * 10:00 - Practical activities: alignment & variant calling
     * 10:30 - Coffee break
