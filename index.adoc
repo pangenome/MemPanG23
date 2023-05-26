@@ -172,60 +172,61 @@ College of Medicine, Department of Pediatrics
 
 == *Program*
 
-=== *Practical Course*
+=== *Practical Course (Central Time Zone)*
 
-==== Tuesday, May 30, 2023 - Day 1
+[options="header", cols="2,1,2,4"]
+|===
+|Day | Time | Speaker(s) | Topic
 
-    - *Session 1 - speaker: link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison]*
-    * 14:30 - Presentation: Introduction to pangenomics
-    * 16:00 - Coffee break
-    * 16:30 - Practical activities: HLA & LPA graphs, PanGenome Graph Builder
-    * 17:30 - End of day 1
+|Tuesday, May 30, 2023 | 14:30-16:00 | link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison] | Presentation: Introduction to pangenomics
+|| 16:00-16:30 | Everyone | Coffee break
+|| 16:30-17:30 | Everyone | Practical: HLA & LPA graphs, PGGB
 
-==== Wednesday, May 31, 2023 - Day 2
+|Wednesday, May 31, 2023 | 09:30-10:00 | link:https://andreaguarracino.github.io/[Andrea Guarracino] | Presentation: Understanding pangenomes
+|| 10:00-10:30 | Everyone | Practical: Human pangenome graph building
+|| 10:30-11:00 | Everyone | Coffee break
+|| 11:00-12:30 | Everyone | Practical: ODGI and community detection
+|| 12:30-14:30 | Everyone | Lunch
 
-    - *Session 2- speaker: link:https://andreaguarracino.github.io/[Andrea Guarracino]*
-    * 09:30 - Presentation: Understanding pangenomes
-    * 10:00 - Practical activities: Human pangenome graph building detection
-    * 10:30 - Coffee break
-    * 11:00 - Practical activities: ODGI applications and community detection
-    * 12:30 - Lunch
-    - *Session 3 - speaker: link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos]*
-    * 14:30 - Presentation: nf-co.re/pangenome
-    * 15:00 - Practical activities: nf-co.re/pangenome application, pangenome openness
-    * 16:00 - Coffee break
-    * 16:30 - Practical activities: nf-co.re/pangenome application, pangenome openness
+|| 14:30-15:00 | link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | Presentation: nf-co.re/pangenome
+|| 15:00-16:00 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
+|| 16:00-16:30 | Everyone | Coffee break
+|| 16:30-17:30 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
 
-==== Thursday, June 1, 2023 - Day 3
+|Thursday, June 1, 2023 | 09:30-10:00 | link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga] | Presentation: Read mapping with vg giraffe
+|| 10:00-10:30 | Everyone | Practical: alignment and variant calling
+|| 10:30-11:00 | Everyone | Coffee break
+|| 11:00-12:30 | Everyone | Practical: alignment and variant calling
+|| 12:30-14:30 | Everyone | Lunch
 
-    - *Session 4 - speaker: link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga]*
-    * 09:00 - Presentation: Read mapping with vg giraffe
-    * 10:00 - Practical activities: alignment & variant calling
-    * 10:30 - Coffee break
-    * 11:00 - Practical activities: alignment & variant calling
-    * 12:30 - Lunch
-    - *Session 5 - speaker: link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie]*
-    * 14:30 - Presentation: State of the art in genome assembly
-    * 15:00 - Practical activities: T2T assembly problems
-    * 16:00 - Coffee break
-    * 15:00 - Practical activities: T2T assembly problems
+|| 14:30-15:00 | link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie] | Presentation: State of the art in genome assembly
+|| 15:00-16:00 | Everyone | Practical: T2T assembly problems
+|| 16:00-16:30 | Everyone | Coffee break
+|| 16:30-17:30 | Everyone | Practical: T2T assembly problems
+|===
 
-=== *Virtual Conference*
+=== *Virtual Conference (Central Time Zone)*
 
 *Friday, June 2, 2023*
 
-    - *Zoom link*: https://tennesseehipaa.zoom.us/j/92881122014
-    - *Session 1 - chair: link:https://andreaguarracino.github.io/[Andrea Guarracino]*
-    * 09:30 - 10:00 - Talk 1: Hidden complex genome rearrangements in the plant pangenome graph, link:https://scholar.google.com/citations?user=jfexpLUAAAAJ&hl=en[Zhigui Bao]
-    * 10:00 - 10:30 - Talk 2: TBD, link:https://scholar.google.com/citations?hl=en&user=XzUOb7IAAAAJ[Arang Rhie]
-    * 10:30 - 11:00 - Coffee break
-    - *Session 2 - chair: link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos]*
-    * 11:00 - 11:30 - Talk 3: Unexpected complexity and abundant structural variation in the pangenomes of birds, link:https://scholar.google.com/citations?user=t0Sk55AAAAAJ&hl=en&oi=ao[Scott Edwards]
-    * 11:30 - 12:00 - Talk 4: TBD, link:https://scholar.google.com/citations?hl=en&user=wpPBcf4AAAAJ&view_op=list_works&sortby=pubdate[Christina Boucher]
-    * 12:00 - 14:00 - Lunch
-    - *Session 3 - chair: link:https://github.com/Flavia95[Flavia Villani]*
-    * 14:00 - 14:30 - Talk 5: Pangenome graphs in pathogen genomics for public health, link:https://scholar.google.com/citations?user=z2edTLkAAAAJ&hl=en[Joep de Ligt]
-    * 14:30 - 15:00 - Talk 6: Recent human evolution of complex genome architectures, link:https://scholar.google.com/citations?user=yp4X1F8AAAAJ&hl=en&oi=ao[Peter Sudmant]
+*Zoom link*: https://tennesseehipaa.zoom.us/j/92881122014
+
+[options="header", cols="2,2,5,2"]
+|===
+|Chair | Time | Talk | Speaker
+
+|link:https://andreaguarracino.github.io/[Andrea Guarracino] | 09:30 - 10:00 | Hidden complex genome rearrangements in the plant pangenome graph | link:https://scholar.google.com/citations?user=jfexpLUAAAAJ&hl=en[Zhigui Bao]
+|| 10:00 - 10:30 | TBD | link:https://scholar.google.com/citations?hl=en&user=XzUOb7IAAAAJ[Arang Rhie]
+|| 10:30 - 11:00 | Coffee break |
+
+|link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | 11:00 - 11:30 | Unexpected complexity and abundant structural variation in the pangenomes of birds | link:https://scholar.google.com/citations?user=t0Sk55AAAAAJ&hl=en&oi=ao[Scott Edwards]
+|| 11:30 - 12:00 | TBD | link:https://scholar.google.com/citations?hl=en&user=wpPBcf4AAAAJ&view_op=list_works&sortby=pubdate[Christina Boucher]
+|| 12:00 - 14:00 | Lunch |
+
+|link:https://github.com/Flavia95[Flavia Villani] | 14:00 - 14:30 | Pangenome graphs in pathogen genomics for public health | link:https://scholar.google.com/citations?user=z2edTLkAAAAJ&hl=en[Joep de Ligt]
+|| 14:30 - 15:00 | Recent human evolution of complex genome architectures | link:https://scholar.google.com/citations?user=yp4X1F8AAAAJ&hl=en&oi=ao[Peter Sudmant]
+|===
+
 
 == *Registration and Practical Information*
 
