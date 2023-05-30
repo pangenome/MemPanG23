@@ -29,24 +29,6 @@ Now create a directory to work on for this tutorial:
     
 </details>
 
-Now let's look at the graph. To do so, we can convert it into [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), which a text-based interchange format for graphs (similar to FASTA for sequences).
-
-	# the -f flag indicates converting to GFA
-	vg convert -f small.vg
-
-In GFA format, each line is a separate record of some part of the graph. The lines come in several types, which are indicated by the first character of the line. **What line types do you see? What do you think they indicate?**
-
-<details>
-<summary>See answer</summary>
-You should see the following line types:
-
-1. `H`: A header.
-2. `S`: A "sequence" line, which is the sequence and ID of a node in the graph.
-3. `L`: A "link" line, which is an edge in the graph.
-4. `P`: A "path" line, which labels a path of interest in the graph. In this case, the path is the walk that the reference sequence takes through the graph.
-
-It should be noted, however, that the format does not specify that these lines come in a particular order.
-</details>
 
 **Exercise:** Use `vg view` and `dot` to visualize the graph. Find nodes 56 and 57 in the visualization. **Do you notice anything strange about them?**
 
@@ -65,9 +47,13 @@ The "-m INT" option in "vg construct" controls the maximum length of a node by "
 </details>
 </details>
 
-Recall that GFA is also an interchange format for graphs. Accordingly, you can construct a graph by ingesting a GFA. 
+Let's also revisit the [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), the text-based interchange format for graphs (similar to FASTA for sequences). Make a GFA for this graph.
 
+	# the -f flag indicates converting to GFA
 	vg convert -f small.vg > small.gfa
+
+Since GFA is an interchange format for graphs, you can construct a graph by ingesting a GFA. 
+
 	# -g indicates that the input is GFA, -p produces a .vg graph
 	vg convert -g -p small.gfa > small.copy.vg
 	
