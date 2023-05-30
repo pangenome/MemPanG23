@@ -184,7 +184,8 @@ College of Medicine, Department of Pediatrics
 
 |Tuesday, May 30, 2023 | 14:30-16:00 | link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison] | Presentation: Introduction to pangenomics
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:30 | Everyone | Practical: HLA & LPA graphs, PGGB
+|| 16:30-17:15 | Everyone | Practical: HLA & LPA graphs, PGGB
+|| 17:15-17:30 | Everyone | Q&A, Day 1 Survey
 
 |Wednesday, May 31, 2023 | 09:30-10:00 | link:https://andreaguarracino.github.io/[Andrea Guarracino] | Presentation: Understanding pangenomes
 || 10:00-10:30 | Everyone | Practical: Human pangenome graph building
@@ -195,7 +196,8 @@ College of Medicine, Department of Pediatrics
 || 14:30-15:00 | link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | Presentation: nf-co.re/pangenome, pangenome openness
 || 15:00-16:00 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:30 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
+|| 16:30-17:15 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
+|| 17:15-17:30 | Everyone | Q&A, Day 2 Survey
 
 |Thursday, June 1, 2023 | 09:30-10:00 | link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga] | Presentation: Read mapping with vg giraffe
 || 10:00-10:30 | Everyone | Practical: alignment and variant calling
@@ -206,7 +208,8 @@ College of Medicine, Department of Pediatrics
 || 14:30-15:00 | link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie] | Presentation: State of the art in genome assembly
 || 15:00-16:00 | Everyone | Practical: T2T assembly problems
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:30 | Everyone | Practical: T2T assembly problems
+|| 16:30-17:15 | Everyone | Practical: T2T assembly problems
+|| 17:15-17:30 | Everyone | Q&A, Day 3 Survey
 |===
 
 === *Virtual Conference (Central Time Zone)*
