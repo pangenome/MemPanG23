@@ -23,7 +23,7 @@ Now create a directory to work on for this tutorial:
 **Exercise:** Repeat the `vg construct` procedure from day 1 to construct a graph using `small/x.fa` and `small/x.vcf.gz`. Call the graph `small.vg`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
     vg construct -r small/x.fa -v small/x.vcf.gz > small.vg
 </details>
 
@@ -35,7 +35,7 @@ Now let's look at the graph. To do so, we can convert it into [GFA format](https
 In GFA format, each line is a separate record of some part of the graph. The lines come in several types, which are indicated by the first character of the line. **What line types do you see? What do you think they indicate?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 You should see the following line types:
 
 1. `H`: A header.
@@ -49,14 +49,14 @@ It should be noted, however, that the format does not specify that these lines c
 **Exercise:** Use `vg view` and `dot` to visualize the graph. Find nodes 56 and 57 in the visualization. **Do you notice anything strange about them?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 
 These nodes are separated by an edge, but not by any variation. It seems like it would be possible to have a longer single node in place of these two nodes.
 
 This is in fact a default behavior in `vg`, which you can also see in nodes 101, 123, and 148. **Do you remember how to modify this behavior?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 
 The `-m INT` option in `vg construct` controls the maximum length of a node by "chopping" nodes longer than the maximum length into several nodes connected by edges. You should note that the maximum length must be at most 1024 to be used in `vg`'s short read mapping tools. The nodes may also be "unchopped" using `vg mod -u`.
 
@@ -72,7 +72,7 @@ Recall that GFA is also an interchange format for graphs. Accordingly, you can c
 **Exercise:** Convert `small.copy.vg` back into GFA format and confirm that the graphs are identical using `diff`. **Do we get identical graphs?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 
 The graphs are in fact identical, but you may still get a non-trivial `diff`. The reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
 
@@ -108,7 +108,7 @@ We begin the indexing pipeline by constructing a graph.
 **Excercise:** Construct a graph using `vg construct` on reference sequence `1mb1kgp/z.fa` and VCF `1mb1kgp/z.vcf.gz`. Name the resulting file `1mb1kgp.vg`. 
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 You can use the following command:
     
     vg construct -r 1mb1kgp/z.fa -v 1mb1kgp/z.vcf.gz > 1mb1kgp.vg
@@ -127,14 +127,14 @@ Next we want to index the graph for fast exact match queries. To do that `vg map
 **Excercise:** Try using `1mb1kgp.xg` as input instead. What happens and why?
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 You should see an error about being unable to load a mutable graph. The `vg prune` algorithm will modify the graph by removing part of it, so the graph must be mutable. Recall that the XG is a static format.   
 </details>
 
 **Excercise:** Confirm that the nodes in `1mb1kgp.pruned.vg` have matching node IDs to the `1mb1kgp.vg`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 This could be accomplished in multiple ways. One easy way is to match the `S` lines from their respective GFAs.
     
     # grep out the sequence (i.e. node) lines and order them consistently
@@ -176,7 +176,7 @@ The output is a bit busy, though. Let's use the `jq` tool to format it nicely.
 **What is the name of the field that in the GAM that expresses the alignment of the read to the graph?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The alignment is encoded in the `path` field. The walk through the graph is indicated by a list of `mapping` records, which each have a `position` that includes the node ID. The `mapping`s also have a list of `edit`s that expression the alignment of the read sequence to the node sequence.  
 </details>
 
@@ -191,7 +191,7 @@ GAF is a text-based, tab-separated format. Look at a few lines.
 **How does GAF show the alignment's walk through the graph?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The walk is expressed in column 6 by a series of node IDs with arrows to indicate their orientation.  
 </details>
     
@@ -217,7 +217,7 @@ See what got created:
 **Is there anything that you expected to see but do not?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 You may have expected to see a `.vg` like the ones we made using `vg construct` and `vg prune`. However, these files are not needed for mapping with `vg map`. They are constructed as temporary files and then discarded after being converted to more efficient indexes.
 </details>
     
@@ -234,7 +234,7 @@ We will soon shift focus to the `vg giraffe` mapping tool, so let's make indexes
 **What indexes did `vg autoindex` create?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 
 You should see `giraffe_indexes.dist`, `giraffe_indexes.giraffe.gbz`, and `giraffe_indexes.min`. If you don't see these indexes, did you request the correct workflow with the `-w` parameter?
 </details>
@@ -260,7 +260,7 @@ We have already seen how to construct graphs using VCF input.
 **Exercise:** How would you construct indexes for `vg giraffe` using a reference sequence `Reference.fasta` and a SV call set `SVs.vcf.gz`?
     
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The easiest method would use `vg autoindex`.
 
     vg autoindex -r Reference.fasta -v SVs.vcf.gz -w giraffe -p index
@@ -295,7 +295,7 @@ The locations in the second column can be local filepaths, URLs, or addresses in
 **Exercise:** Construct a seqFile for the MHC haplotypes and call it `seqFile.txt`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The contents of the seqFile should be:
     
     MHC-GRCh38	/opt/vg_data/mhc_haplotypes/MHC-00GRCh38.fa
@@ -326,7 +326,7 @@ _Aside: if you are still waiting for Minigraph-Cactus to complete, you can conti
 **Exercise:** Once Minigraph-Cactus is done building the pangenome, use `Bandage` to visualize the graph.
     
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 `Bandage` takes GFA as input, so first we need to locate the GFA, which turns out to be gzipped by default.
     
     gunzip mhc_pangenome/mhc.gfa.gz
@@ -343,7 +343,7 @@ Find the indexes in `/opt/vg_data/drosophila/`. What is there?
 **Exercise:** Look at the `vg giraffe --help` documentation to see which arguments to supply the indexes to. Then map the paired reads in `/opt/vg_data/drosophila/SRR835025_chr2_1.fastq.gz` and `/opt/vg_data/drosophila/SRR835025_chr2_2.fastq.gz`. Save the result in GAM format as `SRR835025_chr2.gam`. (Tip: `vg` can read gzipped FASTQ files directly.)
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
     
     vg giraffe -Z /opt/vg_data/drosophila/16-fruitfly-mc-2022-05-26-d2.gbz -d /opt/vg_data/drosophila/16-fruitfly-mc-2022-05-26-d2.dist -m /opt/vg_data/drosophila/16-fruitfly-mc-2022-05-26-d2.min -f /opt/vg_data/drosophila/SRR835025_chr2_1.fastq.gz -f /opt/vg_data/drosophila/SRR835025_chr2_2.fastq.gz > SRR835025_chr2.gam
     
@@ -365,7 +365,7 @@ The mapping may take several minutes. This is a real 30x Illumina data set taken
 **Why do you think we exclude alignments with mapping quality < 5?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 For these reads, we believe that there is at least a ~30% chance that they are mapped to the wrong location. Including these alignments can introduce noise that makes variant calling less accurate. The developers consider this mapping quality filter a best practice.
 </details>
 
@@ -376,27 +376,27 @@ Now we can use the pack to call variants.
 Open the VCF file with a text viewer. **Roughly speaking, what proportion of the called variants are SVs?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 Very few of the variants are SVs. `vg call` calls variants at all "snarls" in the pangenome graph: bubble-like structures that usually indicate variation. There are many more point variants than SVs in most populations (even though SVs affect a large amount of total sequence). Accordingly, most of the of the called variants are point variants. To restrict to SVs, you may want to filter downstream using `bcftools`. 
 </details>
 
 **What is given as the variant ID (column 3)?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 It is the node IDs of the snarl boundaries.
 </details>
 
 Look for homozygous reference allele calls (indicated by a `0/0` genotype) in the VCF. **Roughly speaking, what proportion of the variants are homozygous reference?** 
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 There are none. By default, `vg call` excludes homozygous reference calls. However, you may want to include them in the VCF because, for example, you are combining individual VCFs into a larger panel VCF. 
 
 **Exercise:** Find the option that includes homozygous reference calls using `vg call --help`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The option is `-a`.
 </details>
 </details>
@@ -416,7 +416,7 @@ And then we augment it.
 **The `-A` argument saves a new GAM file. Why is this necessary?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 Adding new bubbles into the graph requires us to break existing nodes and add new nodes. This requires the existing node IDs to change in the augmented graph. Accordingly, we need to update the paths of the alignments if we want them to match the graph that we are going to call variants with.
 </details>
 </details>
@@ -424,7 +424,7 @@ Adding new bubbles into the graph requires us to break existing nodes and add ne
 **The arguments `-m 2 -q 10` filter out bubbles unless they are supported by at least 2 reads with an average base quality of 10. Why might we do this?**
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 Putative variants that are only supported by a single read or by only bases of low quality are likely to be sequencing errors. Adding these candidate variants will expend unnecessary computational effort. In addition, it would increase the multiple testing burden, which can erode accuracy.
 </details>
 </details>
@@ -432,7 +432,7 @@ Putative variants that are only supported by a single read or by only bases of l
 **Exercise:** Repeat the `vg call` pipeline with the augmented graph and augmented GAM. Name the resulting VCF `SRR835025_chr2.aug.vcf`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
         
     vg pack -x 16-fruitfly-mc-2022-05-26-d2.aug.vg -g SRR835025_chr2.aug.gam -Q 5 -t 16 -o SRR835025_chr2.aug.pack
     vg call 16-fruitfly-mc-2022-05-26-d2.aug.vg -k SRR835025_chr2.aug.pack -t 16 > SRR835025_chr2.aug.vcf
@@ -442,7 +442,7 @@ Putative variants that are only supported by a single read or by only bases of l
 **Exercise:** Use a text viewer to look at the first handful of variants in `SRR835025_chr2.aug.vcf` and `SRR835025_chr2.vcf`. Try to locate the same variant in both VCFs. What do you notice about their IDs (column 3)?
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 Many of the variants will now have different IDs, because the node IDs in the graph have changed through the augmentation process.
 </details>
 </details>
@@ -460,7 +460,7 @@ To use `vg` mappings in a linear reference method, it is first necessary to conv
 **Exercise:** We need to identify which paths in the graph are the reference. Use `vg paths --list` to compare the names of the graph's paths to `/opt/vg_data/drosophila/reference_paths.txt`.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 You should see a very long list of paths if you execute 
     
     vg paths --list -x /opt/vg_data/drosophila/16-fruitfly-mc-2022-05-26-d2.gbz
@@ -485,7 +485,7 @@ WDL scripts can be run in cloud and cluster environments, but we will use the `m
 **Exercise:** Look at the contents of `/opt/vg_data/giraffe_deepvariant/inputs.json`. Do you recognize the inputs for the `vg` subcommands we have used?
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 We previously saw `GBZ_FILE`, `MIN_FILE`, and `DIST_FILE` as the outputs of `vg autoindex`. We also saw `PATH_LIST_FILE` as an input for `vg surject` in the previous exercise.
 </details>
 
@@ -498,7 +498,7 @@ The WDL pipeline includes both mapping and variant calling, and you will be able
 **Exercise:** Find the file that describes the pipeline's outputs, and use it to find the output VCF.
 
 <details>
-<summary>**See answer**</summary>
+<summary>See answer</summary>
 The output directory should be named something like `(current date and time)_GiraffeDeepVariant`. It contains a file `outputs.json` which gives the path to the VCF under `GiraffeDeepVariant.output_vcf`.
 </details>
 
