@@ -24,7 +24,9 @@ Now create a directory to work on for this tutorial:
 
 <details>
 <summary>See answer</summary>
+
     vg construct -r small/x.fa -v small/x.vcf.gz > small.vg
+    
 </details>
 
 Now let's look at the graph. To do so, we can convert it into [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), which a text-based interchange format for graphs (similar to FASTA for sequences).
@@ -74,7 +76,7 @@ Recall that GFA is also an interchange format for graphs. Accordingly, you can c
 <details>
 <summary>See answer</summary>
 
-The graphs are in fact identical, but you may still get a non-trivial "diff". The reason is that the order of lines in a GFA is not fixed by the specification. Try using "sort" on both GFAs to put them in the same order and then comparing with "diff" again.
+The graphs are in fact identical, but you may still get a non-trivial diff. The reason is that the order of lines in a GFA is not fixed by the specification. Try using "sort" on both GFAs to put them in the same order and then comparing with diff again.
 
 </details>
 
