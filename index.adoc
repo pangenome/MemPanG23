@@ -182,9 +182,9 @@ College of Medicine, Department of Pediatrics
 |===
 |Day | Time | Speaker(s) | Topic
 
-|Tuesday, May 30, 2023 | 14:30-16:00 | link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison] | Presentation: Introduction to pangenomics
+|Tuesday, May 30, 2023 | 14:30-16:00 | link:http://hypervolu.me/~erik/erik_garrison.html[Erik Garrison] | Presentation: link:https://docs.google.com/presentation/d/1tkWQ6I-oD73MUPGzw3pc1waJ1w2_sx528K188w1srTM/edit?usp=sharing[Introduction to pangenomics]
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:15 | Everyone | Practical: HLA & LPA graphs, PGGB
+|| 16:30-17:15 | Everyone | Practical: link:https://hackmd.io/@AndreaGuarracino/HkrROK_V3[HLA & LPA graphs, PGGB]
 || 17:15-17:30 | Everyone | Q&A, Day 1 Survey
 
 |Wednesday, May 31, 2023 | 09:30-10:00 | link:https://andreaguarracino.github.io/[Andrea Guarracino] | Presentation: Understanding pangenomes
