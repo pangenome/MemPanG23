@@ -2,7 +2,7 @@
 
 ## What to do during your down time
 
-If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper--just for fun.
+If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
 
 ## Getting started
 
@@ -33,43 +33,25 @@ Now create a directory to work on for this tutorial:
     
 </details>
 
-Now let's look at the graph. To do so, we can convert it into [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), which a text-based interchange format for graphs (similar to FASTA for sequences).
-
-	# the -f flag indicates converting to GFA
-	vg convert -f small.vg
-
-In GFA format, each line is a separate record of some part of the graph. The lines come in several types, which are indicated by the first character of the line. **What line types do you see? What do you think they indicate?**
-
-<details>
-<summary>See answer</summary>
-You should see the following line types:
-
-1. `H`: A header.
-2. `S`: A "sequence" line, which is the sequence and ID of a node in the graph.
-3. `L`: A "link" line, which is an edge in the graph.
-4. `P`: A "path" line, which labels a path of interest in the graph. In this case, the path is the walk that the reference sequence takes through the graph.
-
-It should be noted, however, that the format does not specify that these lines come in a particular order.
-</details>
 
 **Exercise:** Use `vg view` and `dot` to visualize the graph. Find nodes 56 and 57 in the visualization. **Do you notice anything strange about them?**
 
 <details>
 <summary>See answer</summary>
 
+	vg view -d small.vg | dot -Tpdf -o small.pdf
+
 These nodes are separated by an edge, but not by any variation. It seems like it would be possible to have a longer single node in place of these two nodes.
 
-This is in fact a default behavior in `vg`, which you can also see in nodes 101, 123, and 148. **Do you remember how to modify this behavior?**
-
-<details>
-<summary>See answer</summary>
-
-The `-m INT` option in `vg construct` controls the maximum length of a node by "chopping" nodes longer than the maximum length into several nodes connected by edges. You should note that the maximum length must be at most 1024 to be used in vg's short read mapping tools. The nodes may also be "unchopped" using `vg mod -u`.
-
-</details>
+This is in fact a default behavior in `vg`, which you can also see in nodes 101, 123, and 148. 
 </details>
 
-Recall that GFA is also an interchange format for graphs. Accordingly, you can construct a graph by ingesting a GFA. 
+Let's also revisit the [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), the text-based interchange format for graphs (similar to FASTA for sequences). Make a GFA for this graph.
+
+	# the -f flag indicates converting to GFA
+	vg convert -f small.vg > small.gfa
+
+Since GFA is an interchange format for graphs, you can construct a graph by ingesting a GFA. 
 
 	vg convert -f small.vg > small.gfa
 	# -g indicates that the input is GFA, -p produces a .vg graph
