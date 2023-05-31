@@ -2,7 +2,7 @@
 
 ## What to do during your down time
 
-If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
+If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/blob/main/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
 
 ## Getting started
 
