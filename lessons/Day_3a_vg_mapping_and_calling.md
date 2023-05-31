@@ -108,7 +108,7 @@ The graph we've just constructed is a mutable data structure---it allows for cha
     # -x indicates that the output is XG format
     vg convert -x 1mb1kgp.vg > 1mb1kgp.xg
 
-Next we want to index the graph for fast exact match queries. To do that `vg map` uses the [GCSA2 index](https://epubs.siam.org/doi/abs/10.1137/1.9781611974768.2), which is a graph-specific generalization of the better known FM-index (used in many widely-used mapping tools, such as `bwa mem` and `bowtie2`). The risk with a GCSA2 index is that its size can grow exponentially with the size of the graph, and in fact we entirely expect it do so on genome-scale graphs. To prevent this from happening, we need to simplify the complicated regions of the graph by removing some nodes and edges using the `vg prune` subcommand.
+Next we want to index the graph for fast exact match queries. To do that `vg map` uses the [GCSA2 index](https://epubs.siam.org/doi/abs/10.1137/1.9781611974768.2), which is a graph-specific generalization of the better known [FM-index](https://en.wikipedia.org/wiki/FM-index) (used in many widely-used mapping tools, such as `bwa mem` and `bowtie2`). The risk with a GCSA2 index is that its size can grow exponentially with the size of the graph, and in fact we entirely expect it do so on genome-scale graphs. To prevent this from happening, we need to simplify the complicated regions of the graph by removing some nodes and edges using the `vg prune` subcommand.
 
     vg prune 1mb1kgp.vg > 1mb1kgp.pruned.vg
 
@@ -331,6 +331,8 @@ Bandage takes GFA as input, so first we need to locate the GFA, which turns out 
     Bandage load mhc_pangenome/mhc.gfa
     
 </details>
+
+*A precaution:* The GFAs produced by Minigraph-Cactus differ somewhat from the GFAs produced by PGGB. Specifically, Minigraph-Cactus uses the `W` ("walk") lines added in [GFA v1.1](http://gfa-spec.github.io/GFA-spec/GFA1.html#gfa-11) to indicate haplotypes and distinguish them from reference paths, which are still represented using `P` lines. In contrast, PGGB uses `P` lines for both.
 
 ## Mapping to a pangenome with `vg giraffe`
 
