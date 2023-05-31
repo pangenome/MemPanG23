@@ -61,8 +61,19 @@ Since GFA is an interchange format for graphs, you can construct a graph by inge
 <details>
 <summary>See answer</summary>
 
-The graphs are in fact identical, but you may still get a non-trivial `diff`. The reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
+The graphs are in fact identical, but you may still get a non-trivial `diff`. One reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
 
+<details>
+<summary>See answer</summary>
+
+You may *still* not have an empty `diff` because of GFA's non-unique representation of edges. These two edge ("link") lines are equivalent:
+	
+	L	1	+	2	+
+	L	2	-	1	-
+	
+The first connects the end of sequence `1` to the beginning of sequence `2`, the second connects the beginning of sequence `2` to the end of sequence `1`, i.e. they are the same.
+
+</details>
 </details>
 
 
