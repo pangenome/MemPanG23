@@ -17,8 +17,8 @@ Once again, we're going to start with some toy data in the `vg` respository, so 
 
 Now create a directory to work on for this tutorial:
 
-	mkdir vg_intro
-	cd vg_intro
+	mkdir vg_refresher
+	cd vg_refresher
 	ln -s ~/vg/test/small
 
 
