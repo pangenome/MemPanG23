@@ -329,7 +329,9 @@ Bandage takes GFA as input, so first we need to locate the GFA, which turns out 
     
     gunzip mhc_pangenome/mhc.gfa.gz
     Bandage load mhc_pangenome/mhc.gfa
-    
+   
+You could also use `scp` or `rsync` to move the GFA to your local computer and then use `Bandage` locally.
+
 </details>
 
 *A precaution:* The GFAs produced by Minigraph-Cactus differ somewhat from the GFAs produced by PGGB. Specifically, Minigraph-Cactus uses the `W` ("walk") lines added in [GFA v1.1](http://gfa-spec.github.io/GFA-spec/GFA1.html#gfa-11) to indicate haplotypes and distinguish them from reference paths, which are still represented using `P` lines. In contrast, PGGB uses `P` lines for both.
