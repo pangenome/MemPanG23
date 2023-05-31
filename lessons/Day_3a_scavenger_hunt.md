@@ -1,6 +1,6 @@
 ## Human Pangenome Reference Consortium scavenger hunt
 
-If you have extra time while waiting for tools to run, you can look for the answers to these questions in the HPRC's [marker paper](https://www.nature.com/articles/s41586-023-05896-x). This activity 
+If you have extra time while waiting for tools to run, you can look for the answers to these questions in the HPRC's [marker paper](https://www.nature.com/articles/s41586-023-05896-x). This activity is entirely optional.
 
 ### Questions
 
@@ -12,7 +12,7 @@ The current phase assembled 47 individuals, and the goal is assemble a total of 
 
 </details>
 
-**What assembly algorithm was used to construct the HPRC**
+**What assembly algorithm was used to construct the HPRC assemblies?**
 <details>
 <summary>See answer</summary>
 
@@ -20,7 +20,7 @@ Trio-Hifiasm
 
 </details>
 
-**What platforms were the sequencing data generated from**
+**What platforms were the sequencing data generated from?**
 <details>
 <summary>See answer</summary>
 
@@ -33,20 +33,37 @@ Trio-Hifiasm
 
 </details>
 
+**How do the HPRC assemblies compare to the GRCh38 reference in terms of contiguity?**
+<details>
+<summary>See answer</summary>
+
+Overall similar. Most of the assemblies are slightly less contiguous, but some are slightly more contiguous. However, this result does not factor in the scaffolding of GRCh38, which connects separated contigs that are believed to be on the same chromosome (by using a region of all `N` characters). With the scaffolding taken into account, GRCh38 would be almost as contiguous as the CHM13 assembly.
+
+</details>
+
 
 **Approximately what fraction of the bases in the assemblies did Flagger identify as dubious?**
 <details>
 <summary>See answer</summary>
 
-
 Most are <1%
+
 </details>
+
 
 **How many misassemblies were corrected manually?**
 <details>
 <summary>See answer</summary>
 
 3 haplotypes in 3 separate samples: HG01358, HG001123, and HG002
+
+</details>
+
+**How would you interpret the 4 different categories shown the colors in Figure 1j?**
+<details>
+<summary>See answer</summary>
+
+These categories could have different interpretations depending on if they are real or artifactual. If they are real, the "Not covered" category indicates a deletion, the "2 Alignments" and ">2 Alignments" category indicate duplications, and the "Only 1 Alignment" category indicates no change in copy number relative to CHM13. All of these categories could also be artifactually produced by assembly errors.
 
 </details>
 
@@ -72,6 +89,14 @@ Paternal male chromosomes have a Y chromosome instead of an X, and the human Y c
 <summary>See answer</summary>
 
 Mostly concordant. PGGB identifies 21 million small variants to Minigraph-Cactus' 22 million. In contrast, PGGB identifies 73,000 structural variants, whereas Minigraph-Cactus identifies 73,000
+
+</details>
+
+**What tool was used to identify variant loci in the pangenome graph?**
+<details>
+<summary>See answer</summary>
+
+`vg deconstruct`
 
 </details>
 
