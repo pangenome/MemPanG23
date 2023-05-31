@@ -1,5 +1,9 @@
 # VG refresher
 
+## What to do during your down time
+
+If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper--just for fun.
+
 ## Getting started
 
 Since we have several VG versions installed, please execute the following to ensure you will run the correct VG version:
