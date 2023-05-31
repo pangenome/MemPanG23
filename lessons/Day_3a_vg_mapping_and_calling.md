@@ -53,7 +53,6 @@ Let's also revisit the [GFA format](https://github.com/GFA-spec/GFA-spec/blob/ma
 
 Since GFA is an interchange format for graphs, you can construct a graph by ingesting a GFA. 
 
-	vg convert -f small.vg > small.gfa
 	# -g indicates that the input is GFA, -p produces a .vg graph
 	vg convert -g -p small.gfa > small.copy.vg
 	
