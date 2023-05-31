@@ -2,7 +2,7 @@
 
 ## What to do during your down time
 
-If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
+If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/blob/main/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
 
 ## Getting started
 
@@ -53,7 +53,6 @@ Let's also revisit the [GFA format](https://github.com/GFA-spec/GFA-spec/blob/ma
 
 Since GFA is an interchange format for graphs, you can construct a graph by ingesting a GFA. 
 
-	vg convert -f small.vg > small.gfa
 	# -g indicates that the input is GFA, -p produces a .vg graph
 	vg convert -g -p small.gfa > small.copy.vg
 	
@@ -62,8 +61,19 @@ Since GFA is an interchange format for graphs, you can construct a graph by inge
 <details>
 <summary>See answer</summary>
 
-The graphs are in fact identical, but you may still get a non-trivial `diff`. The reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
+The graphs are in fact identical, but you may still get a non-trivial `diff`. One reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
 
+<details>
+<summary>See answer</summary>
+
+You may *still* not have an empty `diff` because of GFA's non-unique representation of edges. These two edge ("link") lines are equivalent:
+	
+	L	1	+	2	+
+	L	2	-	1	-
+	
+The first connects the end of sequence `1` to the beginning of sequence `2`, the second connects the beginning of sequence `2` to the end of sequence `1`, i.e. they are the same.
+
+</details>
 </details>
 
 
