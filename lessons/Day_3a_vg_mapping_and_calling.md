@@ -2,7 +2,7 @@
 
 ## What to do during your down time
 
-If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper--just for fun.
+If you have have extra down time while you are waiting for tools to complete running, we have an optional activity that you can use it on--just for fun. This HPRC "[scavenger hunt](https://github.com/pangenome/MemPanG23/edit/day3a/lessons/Day_3a_scavenger_hunt.md)" has questions whose answers you can find the HPRC's marker paper.
 
 ## Getting started
 
@@ -17,8 +17,8 @@ Once again, we're going to start with some toy data in the `vg` respository, so 
 
 Now create a directory to work on for this tutorial:
 
-	mkdir vg_intro
-	cd vg_intro
+	mkdir vg_refresher
+	cd vg_refresher
 	ln -s ~/vg/test/small
 
 
