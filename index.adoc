@@ -195,10 +195,10 @@ College of Medicine, Department of Pediatrics
 || 11:00-12:30 | Everyone | Practical: link:https://hackmd.io/@AndreaGuarracino/SyhbiKuE2[ODGI and community detection]
 || 12:30-14:30 | Everyone | Lunch
 
-|| 14:30-15:00 | link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | Presentation: nf-co.re/pangenome, pangenome openness
-|| 15:00-16:00 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
+|| 14:30-15:00 | link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | Presentation: link:https://docs.google.com/presentation/d/1QRGhBakOGabrV-Azyw9lhw3lr0kYvgep-kkWAyeV4Ns/edit#slide=id.g24a51804cbb_0_849[nf-co.re/pangenome, pangenome openness]
+|| 15:00-16:00 | Everyone | Practical: link:https://hackmd.io/@subwaystation/Bkx_42iNn[nf-co.re/pangenome, pangenome openness]
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:15 | Everyone | Practical: nf-co.re/pangenome, pangenome openness
+|| 16:30-17:15 | Everyone | Practical: link:https://hackmd.io/@subwaystation/Bkx_42iNn[nf-co.re/pangenome, pangenome openness]
 || 17:15-17:30 | Everyone | Q&A, Day 2 Survey
 
 |Thursday, June 1, 2023 | 09:30-10:00 | link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga] | Presentation: Read mapping with vg giraffe
