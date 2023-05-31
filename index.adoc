@@ -176,6 +176,8 @@ College of Medicine, Department of Pediatrics
 
 === *Practical Course (Central Time Zone)*
 
+*Zoom link*:https://tennesseehipaa.zoom.us/j/96698730457?pwd=TXNEbzRaVWRkNVhJY3dBalZGdGVzQT09
+
 *Place*: link:https://goo.gl/maps/tLySYa8zdLsUhE2C6[875 Monroe Ave, Mooney Building, Nash Atrium]
 
 [options="header", cols="2,1,2,4"]
@@ -187,10 +189,10 @@ College of Medicine, Department of Pediatrics
 || 16:30-17:15 | Everyone | Practical: link:https://hackmd.io/@AndreaGuarracino/HkrROK_V3[HLA & LPA graphs, PGGB]
 || 17:15-17:30 | Everyone | Q&A, Day 1 Survey
 
-|Wednesday, May 31, 2023 | 09:30-10:00 | link:https://andreaguarracino.github.io/[Andrea Guarracino] | Presentation: Understanding pangenomes
-|| 10:00-10:30 | Everyone | Practical: Human pangenome graph building
+|Wednesday, May 31, 2023 | 09:30-10:00 | link:https://andreaguarracino.github.io/[Andrea Guarracino] | Presentation: link:https://docs.google.com/presentation/d/1IXs7HDdpCZBY-MapoGaZe0P-iVwgZfgpApC0vQ5icJ0/edit?usp=sharing[Understanding pangenomes]
+|| 10:00-10:30 | Everyone | Practical: link:https://hackmd.io/@AndreaGuarracino/SyhbiKuE2[Human pangenome graph building]
 || 10:30-11:00 | Everyone | Coffee break
-|| 11:00-12:30 | Everyone | Practical: ODGI and community detection
+|| 11:00-12:30 | Everyone | Practical: link:https://hackmd.io/@AndreaGuarracino/SyhbiKuE2[ODGI and community detection]
 || 12:30-14:30 | Everyone | Lunch
 
 || 14:30-15:00 | link:https://uni-tuebingen.de/forschung/forschungsinfrastruktur/zentrum-fuer-quantitative-biologie-qbic/team/[Simon Heumos] | Presentation: nf-co.re/pangenome, pangenome openness
