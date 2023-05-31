@@ -29,6 +29,24 @@ Now create a directory to work on for this tutorial:
     
 </details>
 
+Now let's look at the graph. To do so, we can convert it into [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), which a text-based interchange format for graphs (similar to FASTA for sequences).
+
+	# the -f flag indicates converting to GFA
+	vg convert -f small.vg
+
+In GFA format, each line is a separate record of some part of the graph. The lines come in several types, which are indicated by the first character of the line. **What line types do you see? What do you think they indicate?**
+
+<details>
+<summary>See answer</summary>
+You should see the following line types:
+
+1. `H`: A header.
+2. `S`: A "sequence" line, which is the sequence and ID of a node in the graph.
+3. `L`: A "link" line, which is an edge in the graph.
+4. `P`: A "path" line, which labels a path of interest in the graph. In this case, the path is the walk that the reference sequence takes through the graph.
+
+It should be noted, however, that the format does not specify that these lines come in a particular order.
+</details>
 
 **Exercise:** Use `vg view` and `dot` to visualize the graph. Find nodes 56 and 57 in the visualization. **Do you notice anything strange about them?**
 
@@ -42,18 +60,14 @@ This is in fact a default behavior in `vg`, which you can also see in nodes 101,
 <details>
 <summary>See answer</summary>
 
-The "-m INT" option in "vg construct" controls the maximum length of a node by "chopping" nodes longer than the maximum length into several nodes connected by edges. You should note that the maximum length must be at most 1024 to be used in vg's short read mapping tools. The nodes may also be "unchopped" using "vg mod -u".
+The `-m INT` option in `vg construct` controls the maximum length of a node by "chopping" nodes longer than the maximum length into several nodes connected by edges. You should note that the maximum length must be at most 1024 to be used in vg's short read mapping tools. The nodes may also be "unchopped" using `vg mod -u`.
 
 </details>
 </details>
 
-Let's also revisit the [GFA format](https://github.com/GFA-spec/GFA-spec/blob/master/GFA1.md), the text-based interchange format for graphs (similar to FASTA for sequences). Make a GFA for this graph.
+Recall that GFA is also an interchange format for graphs. Accordingly, you can construct a graph by ingesting a GFA. 
 
-	# the -f flag indicates converting to GFA
 	vg convert -f small.vg > small.gfa
-
-Since GFA is an interchange format for graphs, you can construct a graph by ingesting a GFA. 
-
 	# -g indicates that the input is GFA, -p produces a .vg graph
 	vg convert -g -p small.gfa > small.copy.vg
 	
@@ -62,7 +76,7 @@ Since GFA is an interchange format for graphs, you can construct a graph by inge
 <details>
 <summary>See answer</summary>
 
-The graphs are in fact identical, but you may still get a non-trivial diff. The reason is that the order of lines in a GFA is not fixed by the specification. Try using "sort" on both GFAs to put them in the same order and then comparing with diff again.
+The graphs are in fact identical, but you may still get a non-trivial `diff`. The reason is that the order of lines in a GFA is not fixed by the specification. Try using `sort` on both GFAs to put them in the same order and then comparing with `diff` again.
 
 </details>
 
@@ -116,14 +130,17 @@ Next we want to index the graph for fast exact match queries. To do that `vg map
 
 <details>
 <summary>See answer</summary>
-You should see an error about being unable to load a mutable graph. The "vg prune" algorithm will modify the graph by removing part of it, so the graph must be mutable. Recall that the XG is a static format.   
+	
+You should see an error about being unable to load a mutable graph. The `vg prune` algorithm will modify the graph by removing part of it, so the graph must be mutable. Recall that the XG is a static format.   
+
 </details>
 
 **Excercise:** Confirm that the nodes in `1mb1kgp.pruned.vg` have matching node IDs to the `1mb1kgp.vg`.
 
 <details>
 <summary>See answer</summary>
-This could be accomplished in multiple ways. One easy way is to match the "S" lines from their respective GFAs.
+	
+This could be accomplished in multiple ways. One easy way is to match the `S` lines from their respective GFAs.
     
     # grep out the sequence (i.e. node) lines and order them consistently
     vg convert -f 1mb1kgp.vg | grep "^S" | sort > 1mb1kgp.nodes.txt
@@ -165,7 +182,9 @@ The output is a bit busy, though. Let's use the `jq` tool to format it nicely.
 
 <details>
 <summary>See answer</summary>
-The alignment is encoded in the "path" field. The walk through the graph is indicated by a list of "mapping" records, which each have a "position" that includes the node ID. The mappings also have a list of "edits" that expression the alignment of the read sequence to the node sequence.  
+	
+The alignment is encoded in the `path` field. The walk through the graph is indicated by a list of `mapping` records, which each have a `position` that includes the node ID. The mappings also have a list of `edit`s that expression the alignment of the read sequence to the node sequence.  
+
 </details>
 
 Another common format that used to express graph alignments is [GAF](https://github.com/lh3/gfatools/blob/master/doc/rGFA.md#the-graph-alignment-format-gaf). We can use `vg convert` to convert between the formats.
@@ -206,7 +225,9 @@ See what got created:
 
 <details>
 <summary>See answer</summary>
-You may have expected to see a ".vg" like the ones we made using "vg construct" and "vg prune". However, these files are not needed for mapping with "vg map". They are constructed as temporary files and then discarded after being converted to more efficient indexes.
+	
+You may have expected to see a `.vg` like the ones we made using `vg construct` and `vg prune`. However, these files are not needed for mapping with `vg map`. They are constructed as temporary files and then discarded after being converted to more efficient indexes.
+	
 </details>
     
 **Exercise:** Look at the logging output (lines starting with `[IndexRegistry]`) and try to correspond the steps `vg autoindex` takes to the ones we performed in the previous exercises. 
@@ -224,7 +245,8 @@ We will soon shift focus to the `vg giraffe` mapping tool, so let's make indexes
 <details>
 <summary>See answer</summary>
 
-You should see "giraffe_indexes.dist", "giraffe_indexes.giraffe.gbz", and "giraffe_indexes.min". If you don't see these indexes, did you request the correct workflow with the "-w" parameter?
+You should see `giraffe_indexes.dist`, `giraffe_indexes.giraffe.gbz`, and `giraffe_indexes.min`. If you don't see these indexes, did you request the correct workflow with the `-w` parameter?
+
 </details>
 
 
@@ -249,13 +271,15 @@ We have already seen how to construct graphs using VCF input.
     
 <details>
 <summary>See answer</summary>
-The easiest method would use "vg autoindex".
+	
+The easiest method would use `vg autoindex`.
 
     vg autoindex -r Reference.fasta -v SVs.vcf.gz -w giraffe -p index
     
 </details>
     
 **Important considerations**
+
 1. `vg` can only use SVs that are fully base-resolved. It will ignore variants that have approximate breakpoints.
 2. For `vg giraffe` in particular, the results will be best if the variants are phased. Much of its speed comes from focusing on the paths that haplotypes take through the graph, so it needs this haplotype information.
     
@@ -354,7 +378,9 @@ The mapping may take several minutes. This is a real 30x Illumina data set taken
 
 <details>
 <summary>See answer</summary>
+	
 For these reads, we believe that there is at least a ~30% chance that they are mapped to the wrong location. Including these alignments can introduce noise that makes variant calling less accurate. The developers consider this mapping quality filter a best practice.
+
 </details>
 
 Now we can use the pack to call variants.
@@ -365,27 +391,35 @@ Open the VCF file with a text viewer. **Roughly speaking, what proportion of the
 
 <details>
 <summary>See answer</summary>
-Very few of the variants are SVs. "vg call" calls variants at all "snarls" in the pangenome graph: bubble-like structures that usually indicate variation. There are many more point variants than SVs in most populations (even though SVs affect a large amount of total sequence). Accordingly, most of the of the called variants are point variants. To restrict to SVs, you may want to filter downstream using bcftools. 
+	
+Very few of the variants are SVs. `vg call` calls variants at all "snarls" in the pangenome graph: bubble-like structures that usually indicate variation. There are many more point variants than SVs in most populations (even though SVs affect a large amount of total sequence). Accordingly, most of the of the called variants are point variants. To restrict to SVs, you may want to filter downstream using bcftools. 
+
 </details>
+
 
 **What is given as the variant ID (column 3)?**
 
 <details>
 <summary>See answer</summary>
+	
 It is the node IDs of the snarl boundaries.
+
 </details>
 
 Look for homozygous reference allele calls (indicated by a `0/0` genotype) in the VCF. **Roughly speaking, what proportion of the variants are homozygous reference?** 
 
 <details>
 <summary>See answer</summary>
-There are none. By default, "vg call" excludes homozygous reference calls. However, you may want to include them in the VCF because, for example, you are combining individual VCFs into a larger panel VCF. 
+	
+There are none. By default, `vg call` excludes homozygous reference calls. However, you may want to include them in the VCF because, for example, you are combining individual VCFs into a larger panel VCF. 
 
 **Exercise:** Find the option that includes homozygous reference calls using `vg call --help`.
 
 <details>
 <summary>See answer</summary>
-The option is "-a".
+	
+The option is `-a`.
+
 </details>
 </details>
 
@@ -405,16 +439,18 @@ And then we augment it.
 
 <details>
 <summary>See answer</summary>
+	
 Adding new bubbles into the graph requires us to break existing nodes and add new nodes. This requires the existing node IDs to change in the augmented graph. Accordingly, we need to update the paths of the alignments if we want them to match the graph that we are going to call variants with.
-</details>
+	
 </details>
 
 **The arguments `-m 2 -q 10` filter out bubbles unless they are supported by at least 2 reads with an average base quality of 10. Why might we do this?**
 
 <details>
 <summary>See answer</summary>
+	
 Putative variants that are only supported by a single read or by only bases of low quality are likely to be sequencing errors. Adding these candidate variants will expend unnecessary computational effort. In addition, it would increase the multiple testing burden, which can erode accuracy.
-</details>
+	
 </details>
 
 **Exercise:** Repeat the `vg call` pipeline with the augmented graph and augmented GAM. Name the resulting VCF `SRR835025_chr2.aug.vcf`.
@@ -424,15 +460,16 @@ Putative variants that are only supported by a single read or by only bases of l
         
     vg pack -x 16-fruitfly-mc-2022-05-26-d2.aug.vg -g SRR835025_chr2.aug.gam -Q 5 -t 16 -o SRR835025_chr2.aug.pack
     vg call 16-fruitfly-mc-2022-05-26-d2.aug.vg -k SRR835025_chr2.aug.pack -t 16 > SRR835025_chr2.aug.vcf
-</details>
+	
 </details>
 
 **Exercise:** Use a text viewer to look at the first handful of variants in `SRR835025_chr2.aug.vcf` and `SRR835025_chr2.vcf`. Try to locate the same variant in both VCFs. What do you notice about their IDs (column 3)?
 
 <details>
 <summary>See answer</summary>
+	
 Many of the variants will now have different IDs, because the node IDs in the graph have changed through the augmentation process.
-</details>
+
 </details>
 
 **Exercise:** Find a variant that is present in the augmented VCF but not in the original VCF. (Hint: you can use `grep -v "#" filename.vcf | cut -f 2` to extract the positions of the variants).
@@ -474,7 +511,9 @@ WDL scripts can be run in cloud and cluster environments, but we will use the `m
 
 <details>
 <summary>See answer</summary>
-We previously saw "GBZ_FILE", "MIN_FILE", and "DIST_FILE" as the outputs of "vg autoindex". We also saw "PATH_LIST_FILE" as an input for "vg surject" in the previous exercise.
+	
+We previously saw `GBZ_FILE`, `MIN_FILE`, and `DIST_FILE` as the outputs of `vg autoindex`. We also saw `PATH_LIST_FILE` as an input for `vg surject` in the previous exercise.
+
 </details>
 
 Let's run the pipeline.
@@ -487,7 +526,9 @@ The WDL pipeline includes both mapping and variant calling, and you will be able
 
 <details>
 <summary>See answer</summary>
-The output directory should be named something like "(current date and time)_GiraffeDeepVariant". It contains a file "outputs.json" which gives the path to the VCF under "GiraffeDeepVariant.output_vcf".
+	
+The output directory should be named something like `(current date and time)_GiraffeDeepVariant`. It contains a file `outputs.json` which gives the path to the VCF under `GiraffeDeepVariant.output_vcf`.
+
 </details>
 
 **Open-ended final exercise:** What can you infer about the sample's blood type based on the results in this VCF?
