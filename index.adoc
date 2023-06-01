@@ -207,10 +207,10 @@ College of Medicine, Department of Pediatrics
 || 11:00-12:30 | Everyone | Practical: link:https://github.com/pangenome/MemPanG23/blob/main/lessons/Day_3a_vg_mapping_and_calling.md[alignment and variant calling]
 || 12:30-14:30 | Everyone | Lunch
 
-|| 14:30-15:00 | link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie] | Presentation: State of the art in genome assembly
-|| 15:00-16:00 | Everyone | Practical: T2T assembly problems
+|| 14:30-15:00 | link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie] | Presentation: link:https://docs.google.com/presentation/d/1AUKy5C3Q4whWBbdKNAKmgmmeXjeqeVFkXMPo7MSYryQ/edit?usp=sharing[State of the art in genome assembly]
+|| 15:00-16:00 | Everyone | Practical: link:https://github.com/arangrhie/MemPanG23/tree/main[T2T assembly problems]
 || 16:00-16:30 | Everyone | Coffee break
-|| 16:30-17:15 | Everyone | Practical: T2T assembly problems
+|| 16:30-17:15 | Everyone | Practical: link:https://github.com/arangrhie/MemPanG23/tree/main[T2T assembly problems]
 || 17:15-17:30 | Everyone | Q&A, Day 3 Survey
 |===
 
