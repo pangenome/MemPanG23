@@ -201,10 +201,10 @@ College of Medicine, Department of Pediatrics
 || 16:30-17:15 | Everyone | Practical: link:https://hackmd.io/@subwaystation/Bkx_42iNn[pangenome openness, nf-co.re/pangenome]
 || 17:15-17:30 | Everyone | Q&A, Day 2 Survey
 
-|Thursday, June 1, 2023 | 09:30-10:00 | link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga] | Presentation: Read mapping with vg giraffe
-|| 10:00-10:30 | Everyone | Practical: alignment and variant calling
+|Thursday, June 1, 2023 | 09:30-10:00 | link:https://scholar.google.com/citations?user=rWNHPpAAAAAJ&hl=en[Jordan M Eizenga] | Presentation: link:https://docs.google.com/presentation/d/1IkcVWmjkKhAThE_nWBPYntscthSty3JpnMOPmTf5Zo8/edit?usp=sharing[Read mapping with vg giraffe]
+|| 10:00-10:30 | Everyone | Practical: link:https://github.com/pangenome/MemPanG23/blob/main/lessons/Day_3a_vg_mapping_and_calling.md[alignment and variant calling]
 || 10:30-11:00 | Everyone | Coffee break
-|| 11:00-12:30 | Everyone | Practical: alignment and variant calling
+|| 11:00-12:30 | Everyone | Practical: link:https://github.com/pangenome/MemPanG23/blob/main/lessons/Day_3a_vg_mapping_and_calling.md[alignment and variant calling]
 || 12:30-14:30 | Everyone | Lunch
 
 || 14:30-15:00 | link:https://genomeinformatics.github.io/people/rhie/[Arang Rhie] | Presentation: State of the art in genome assembly
