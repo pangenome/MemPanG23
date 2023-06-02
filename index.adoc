@@ -237,7 +237,7 @@ College of Medicine, Department of Pediatrics
 |link:https://github.com/Flavia95[Flavia Villani] | 14:00 - 14:30 | link:https://drive.google.com/file/d/1faIl34X3flI46qzPkLEaquEFSajvXYmq/view[Pangenome graphs in pathogen genomics for public health] | link:https://scholar.google.com/citations?user=z2edTLkAAAAJ&hl=en[Joep de Ligt]
 || 14:30 - 15:00 | Recent human evolution of complex genome architectures | link:https://scholar.google.com/citations?user=yp4X1F8AAAAJ&hl=en&oi=ao[Peter Sudmant]
 
-|| 15:00 - 15:10 | Conference Closing | link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna]
+|| 15:00 - 15:10 | link:https://docs.google.com/presentation/d/1nMvHckupefZ2iI4P161bbDxAyfC-x2NPJ3upwE5wRMI/edit?usp=sharing[Conference Closing] | link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna]
 |===
 
 
