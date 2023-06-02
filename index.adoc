@@ -224,7 +224,7 @@ College of Medicine, Department of Pediatrics
 |===
 |Chair | Time | Talk | Speaker
 
-|| 09:20 - 9:30 | Conference Opening | link:https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Rob Williams]
+|| 09:20 - 09:30 | Conference Opening | link:https://scholar.google.com/citations?user=OYJMYwIAAAAJ&hl=en[Rob Williams]
 
 |link:https://andreaguarracino.github.io/[Andrea Guarracino] | 09:30 - 10:00 | Hidden complex genome rearrangements in the plant pangenome graph | link:https://scholar.google.com/citations?user=jfexpLUAAAAJ&hl=en[Zhigui Bao]
 || 10:00 - 10:30 | Beyond one T2T human genome: What's next? | link:https://scholar.google.com/citations?hl=en&user=XzUOb7IAAAAJ[Arang Rhie]
@@ -236,6 +236,8 @@ College of Medicine, Department of Pediatrics
 
 |link:https://github.com/Flavia95[Flavia Villani] | 14:00 - 14:30 | Pangenome graphs in pathogen genomics for public health | link:https://scholar.google.com/citations?user=z2edTLkAAAAJ&hl=en[Joep de Ligt]
 || 14:30 - 15:00 | Recent human evolution of complex genome architectures | link:https://scholar.google.com/citations?user=yp4X1F8AAAAJ&hl=en&oi=ao[Peter Sudmant]
+
+|| 15:00 - 15:10 | Conference Closing | link:https://www.uthsc.edu/faculty/profile/?netid=vcolonna[Vincenza Colonna]
 |===
 
 
