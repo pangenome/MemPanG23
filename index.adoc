@@ -218,7 +218,8 @@ College of Medicine, Department of Pediatrics
 
 *Time:* Friday, June 2, 2023 +
 *Place:* link:https://goo.gl/maps/tLySYa8zdLsUhE2C6[875 Monroe Ave, Mooney Building, Mooney Library] +
-*Zoom link*: https://tennesseehipaa.zoom.us/j/92881122014
+*Zoom link*: https://tennesseehipaa.zoom.us/j/92881122014 +
+*Recording*: https://youtu.be/TaoRZYOOC1Y
 
 [options="header", cols="2,2,5,2"]
 |===
